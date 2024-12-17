@@ -1,0 +1,10 @@
+@import "./global/global.css";
+@import "./utilidades/utilidades.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./main/main.css";
+@import "./p2/p2.css";
+@import "./profvideo/profvideo.css";
+@import "./professora/professora.css";
+@import "./plano/plano.css";
+@import "./metodo/metodo.css";

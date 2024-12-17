@@ -1,0 +1,33 @@
+.metodo-bg {
+  background-color: #000;
+}
+.container-metodo {
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.texto-metodo {
+  position: relative;
+  text-align: right;
+}
+.texto-metodo h2 {
+  margin-bottom: 40px;
+}
+
+.img-metodo img {
+  left: -40px;
+  max-width: 250%;
+}
+
+.metodo-item {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.metodo-item::before {
+  content: "✔"; 
+  color: #c2f738; 
+  margin-right: 10px;
+}
+

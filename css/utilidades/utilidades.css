@@ -1,0 +1,94 @@
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margem-baixo-menor {
+  margin-bottom: 5px;
+}
+
+.margem-baixo {
+  margin-bottom: 10px;
+}
+
+.margem-baixo-maior {
+  margin-bottom: 20px;
+}
+
+.botao {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding: 10px 20px;
+  background-color: #ff2c64; 
+  text-decoration: none; 
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+  position: relative;
+  white-space: nowrap;
+}
+
+.botao:hover {
+  background-color: #ee1d55;
+}
+
+.dec-botao-main {
+  position: absolute; 
+  z-index: 1; 
+}
+
+.dec-botao-main::before {
+  position: absolute;
+  content: "";
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-image: url('https://cdn.pixabay.com/photo/2013/07/12/12/56/cursor-146588_960_720.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 15% 78%;
+}
+
+.dec-botao {
+  position: absolute; 
+  z-index: 1; 
+}
+
+.dec-botao::before {
+  position: absolute;
+  content: "";
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-image: url('https://cdn.pixabay.com/photo/2013/07/12/12/56/cursor-146588_960_720.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10% 85%;
+}
+
+
+@media (max-width: 680px) {
+
+  .dec-botao::before {
+    width: 50px;
+    height: 50px;
+    margin: 5% 85%;
+  }
+  .dec-botao-main::before{
+    width: 50px;
+    height: 50px;
+    margin: 20% 75%;
+  }
+}
+
+@media (max-width: 400px) {
+  .botao {
+    padding: 5px 10px;
+  }
+  
+}

@@ -19,6 +19,10 @@
   font: 600 4rem/1.125 "Poppins", sans-serif;
 }
 
+.font-1-xl-n {
+  font: 400 2rem/1 "Poppins", sans-serif;
+}
+
 .font-1-xl-lh {
   font: 400 3rem/1 "Poppins", sans-serif;
 }
@@ -50,6 +54,9 @@
   
     }
 @media (max-width: 800px) {
+  .font-1-xl-n {
+    font: 400 1.2rem/1 "Poppins", sans-serif;
+  }
 
   .font-1-xxl, .font-1-xxl-sb, .font-1-xxl-lh  {
     font-size: 2.5rem;

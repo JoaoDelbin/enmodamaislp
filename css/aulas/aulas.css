@@ -42,11 +42,22 @@
 }
 
 @media (max-width:820px) {
+  .aulas-bg {
+    background-color: #111;
+    padding-bottom: 20px;
+  }
   .botao-aulas2 a {
     display:inline;
+    margin-top: -200px;
   }
   .botao-aulas1 a {
     display: none;
     margin-top: 40px;
+  }
+  .container-lista-aulas {
+    gap: 20px;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }

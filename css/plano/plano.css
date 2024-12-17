@@ -3,11 +3,12 @@
 }
 .container-plano {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   text-align: center;
 }
+
 .container-botao {
-  padding-top: 40px;
+  padding-top: 10px;
   align-items: center;
   justify-content: center;
   display: flex;

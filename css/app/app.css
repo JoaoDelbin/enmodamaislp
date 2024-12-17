@@ -1,0 +1,27 @@
+.app-bg {
+  background-color: #000;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.container-app {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-right: 0px;
+}
+
+.conteudo-app {
+  
+}
+
+.imagem-app img {
+  
+  height: 800px;
+  width: 950px;
+}
+
+.imagem-app {
+  max-width: 100%;
+  overflow: hidden;
+}

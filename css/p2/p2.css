@@ -22,7 +22,26 @@ h2.titulo-p2 {
 }
 
 .p2-item {
-  padding:  30px  5px;
+  max-width: 500px;
+  margin-bottom: 30px;
+  padding:  25px  10px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.p2-item:hover {
+  background-color: #ff2c64;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 10px rgba(255, 44, 100, 0.6); /* Sombra com cor */
+  transform: scale(1.05); /* Aumenta levemente o item */
+}
+
+/* fazer no java scroll */
+.p2-item.active a{
+  background-color: #ff2c64;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 10px rgba(255, 44, 100, 0.6); /* Sombra com cor */
+  transform: scale(1.05); /* Aumenta levemente o item */
 }
 
 .imagens-p2 {
@@ -35,6 +54,10 @@ h2.titulo-p2 {
   margin-bottom: 80px;
   width: 100%;
   height: 100%;
+}
+
+.ndias {
+  padding: 10px 20px;
 }
 
 @media (max-width:820px) {

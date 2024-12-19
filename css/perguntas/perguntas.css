@@ -75,3 +75,11 @@ div .faq-item input {
   text-align: center;
 
 }
+
+@media (max-width:800px) {
+  .faq-question:hover,
+.faq-question:active {
+  background-color: #00000000;
+  border-radius: 10px;
+}
+}

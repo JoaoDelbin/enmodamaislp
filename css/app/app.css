@@ -91,9 +91,9 @@
   .app-bg {
     padding-top: 20px;
     background-image: url('/imagens/tablet.png');
-    background-position: 130% 50%;
+    background-position: 260% 50%;
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 90%;
   }
   .dispo-em {
     gap: 10px;

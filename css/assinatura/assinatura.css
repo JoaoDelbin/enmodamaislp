@@ -1,0 +1,20 @@
+.assinatura-bg {
+  background-color: #000;
+  padding-bottom: 40px;
+}
+
+.container-assinatura {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+.div-botao a {
+  font-size: 3rem;
+}
+
+.div-botao p {
+  margin-top: 10px;
+  text-align: center;
+}

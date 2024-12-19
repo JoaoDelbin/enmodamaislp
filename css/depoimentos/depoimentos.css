@@ -1,6 +1,6 @@
 .depoimentos-bg {
   padding-top: 40px;
-  background-color: #fff;
+  background-color: #000;
   padding-bottom: 140px;
 }
 
@@ -24,7 +24,7 @@
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-  overflow: scroll;
+  overflow: hidden;
   overflow-y: hidden;
 }
 
@@ -46,21 +46,26 @@
 .video-thumbnail5 {
   width: 100%;
   aspect-ratio: 16/9;
-  background-image: url("https://img.youtube.com/vi/NV4TId1dDec/hqdefault.jpg"); /* Miniatura do novo vídeo */
-  background-size: cover;
-  background-position: center;
+  background-size: cover; /* Preenche o espaço para todos */
+  background-position: center; /* Centraliza a imagem */
   cursor: pointer;
   position: absolute;
   border-radius: 10px;
   overflow: hidden;
 }
 
+.video-thumbnail3 {
+  background-image: url("https://img.youtube.com/vi/2up7B0SClxI/hqdefault.jpg");
+}
+
 .video-thumbnail4 {
-  background-image: url("https://img.youtube.com/vi/gP2gc39oPwM/hqdefault.jpg"); /* Miniatura do novo vídeo */
+  background-image: url("https://img.youtube.com/vi/EO-fKonlCzQ/hqdefault.jpg");
 }
 
 .video-thumbnail5 {
-  background-image: url("https://img.youtube.com/vi/jfA-ZXq7RpM/hqdefault.jpg"); /* Miniatura do novo vídeo */
+  background-size: 320%;
+  background-position: center 30%;
+  background-image: url("https://img.youtube.com/vi/g_NdJtW4Wpo/hqdefault.jpg");
 }
 
 .depoimento-video1,
@@ -103,6 +108,12 @@
   margin: 10% 85%;
 }
 
+@media (max-width: 1200px){
+.carrossel {
+  overflow: scroll;
+  overflow-y: hidden;
+}}
+
 @media (max-width: 600px) {
 
   .container-seta {
@@ -121,8 +132,8 @@
   }
   .seta-carrossel {
     display: inline;
-    width: 35px;
-    height: 35px;
+    width: 55px;
+    height: 25px;
     
   }
   .carrossel {

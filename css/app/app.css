@@ -1,27 +1,43 @@
 .app-bg {
   background-color: #000;
   padding-top: 80px;
-  padding-bottom: 120px;
+  background-image: url('/imagens/tablet.png');
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  padding-bottom: 500px;
 }
 
 .container-app {
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
   padding-right: 0px;
 }
 
 .conteudo-app {
-  
+  margin-right: 400px;
+}
+.titulo-app {
+  margin-bottom: 40px;
+}
+.conteudo-app article {
+  margin-right: 220px;
+  margin-bottom: 20px;
 }
 
-.imagem-app img {
-  
-  height: 800px;
-  width: 950px;
+.dispo-em {
+  display: flex;
+}
+.dispo-img a img {
+  width: 260px;
+
 }
 
-.imagem-app {
-  max-width: 100%;
-  overflow: hidden;
+
+@media (max-width: 1500px) {
+  .app-bg {
+    background-image: url('/imagens/tablet.png');
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    padding-bottom: 300px;
+  }
 }

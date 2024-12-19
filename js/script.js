@@ -51,3 +51,103 @@ function playVideo5() {
   iframe.style.display = 'block'; 
   document.querySelector('.video-thumbnail5').style.display = 'none'; 
 }
+
+// 
+// 
+// 
+//  scroll metodo
+document.addEventListener("DOMContentLoaded", () => {
+  const items = document.querySelectorAll(".metodo-item");
+
+  const handleScroll = () => {
+    items.forEach((item) => {
+      const rect = item.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+
+    
+      if (rect.top >= windowHeight * 0.15 && rect.bottom <= windowHeight * 0.60) {
+        item.classList.add("box");
+      } else {
+        item.classList.remove("box");
+      }
+    });
+  };
+
+  
+  window.addEventListener("scroll", handleScroll);
+
+  
+  handleScroll();
+});
+//  scroll p2
+document.addEventListener("DOMContentLoaded", () => {
+  const items = document.querySelectorAll(".p2-item");
+
+  const handleScroll = () => {
+    items.forEach((item) => {
+      const rect = item.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+
+    
+      if (rect.top >= windowHeight * 0.05 && rect.bottom <= windowHeight * 0.80) {
+        item.classList.add("box");
+      } else {
+        item.classList.remove("box");
+      }
+    });
+  };
+
+  
+  window.addEventListener("scroll", handleScroll);
+
+  
+  handleScroll();
+});
+//  scroll aulas armario
+document.addEventListener("DOMContentLoaded", () => {
+  const items = document.querySelectorAll(".capsula-item");
+
+  const handleScroll = () => {
+    items.forEach((item) => {
+      const rect = item.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+
+    
+      if (rect.top >= windowHeight * 0.35 && rect.bottom <= windowHeight * 0.60) {
+        item.classList.add("active");
+      } else {
+        item.classList.remove("active");
+      }
+    });
+  };
+
+  
+  window.addEventListener("scroll", handleScroll);
+
+  
+  handleScroll();
+});
+//  scroll aulas cor
+document.addEventListener("DOMContentLoaded", () => {
+  const items = document.querySelectorAll(".cor-item");
+
+  const handleScroll = () => {
+    items.forEach((item) => {
+      const rect = item.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+
+    
+      if (rect.top >= windowHeight * 0.35 && rect.bottom <= windowHeight * 0.60) {
+        item.classList.add("active");
+      } else {
+        item.classList.remove("active");
+      }
+    });
+  };
+
+  
+  window.addEventListener("scroll", handleScroll);
+
+  
+  handleScroll();
+});

@@ -1,0 +1,77 @@
+.perguntas-frequentes-bg {
+  background-color: #111;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.perguntas-texto {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.container-faq {
+  align-items: center;
+  justify-items: center;
+}
+
+.faq-item {
+  color: #c2f738;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+}
+
+.faq-answer {
+  color: #fff;
+  display: none;
+  padding: 20px;
+  background-color: #111;
+  }
+
+  .faq-question::before {
+    content: url("/imagens/setafaq.svg");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    transform-origin: center;
+  }
+
+  .faq-toggle:checked + .faq-question::before {
+    transform: rotate(90deg); 
+  }
+
+
+.faq-toggle:checked + .faq-question + .faq-answer {
+  display: block;
+}
+
+.faq-question:hover,
+.faq-question:active {
+  background-color: #000;
+  border-radius: 10px;
+}
+
+div .faq-item input {
+  display: none;
+}
+
+.faq2-titulo {
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.faq-cursos li{
+  text-align: center;
+
+}

@@ -34,6 +34,8 @@
 }
 
 .botao:hover {
+  box-shadow: 0 0 15px 10px rgba(255, 44, 100, 0.6); /* Sombra com cor */
+  transition: box-shadow 0.3s ease;
   background-color: #ee1d55;
 }
 

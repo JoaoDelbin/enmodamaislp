@@ -33,10 +33,11 @@
 .cor-item {
   padding: 15px 20px;
 }
-.capsula-item:hover,
-.cor-item:hover {
+
+.active {
   color: #ff2c64;
   font-weight: 800;
+  transform: scale(1.05);
 }
 
 .botao-aulas1 {

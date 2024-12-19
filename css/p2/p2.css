@@ -27,13 +27,16 @@ h2.titulo-p2 {
   padding:  25px  10px;
   background-color: black;
   border-radius: 5px;
+  transition: background-color 2s ease, transform 0.8s ease,
+   border-radius 1s ease;
 }
 
-.p2-item:hover {
+.box {
   background-color: #ff2c64;
   border-radius: 5px;
   box-shadow: 0 0 15px 10px rgba(255, 44, 100, 0.6); /* Sombra com cor */
   transform: scale(1.05); /* Aumenta levemente o item */
+  transition:  tranform 0.8s ease, box-shadow 0.8s ease;
 }
 
 /* fazer no java scroll */

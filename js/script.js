@@ -1,6 +1,6 @@
 function playVideo() {
   const iframe = document.getElementById('video');
-  const videoUrl = "https://www.youtube.com/embed/2-6pLqW8QGU?autoplay=1";
+  const videoUrl = "https://www.youtube.com/embed/rJqPObtAHzs?autoplay=1";
   iframe.src = videoUrl;
   iframe.style.display = 'block'; 
   document.querySelector('.video-thumbnail').style.display = 'none'; 
